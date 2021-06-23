@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap');
+
+* {
+    font-family: 'Spirax', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__bar {
+    background: #221D1D;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.nav__logo--aot {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 50%;
+}
+
+
+.list {
+    display: flex;
+}
+
+.list li {
+    padding-right: 60px;
+}
+
+.list li:last-child {
+    padding: 0;
+}
+
+
+.nav__logo a {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.nav__logo a:hover {
+    background: url(https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 5s infinite linear;
+    cursor: pointer;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.list__item {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    transition: color 0.5s;
+}
+
+.list__item:hover {
+    color: #00A4E5;
+    cursor: pointer;
+}
+
+.header {
+    background-image: url(../img/Group\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 100%;
+}
+
+.header__container {
+    padding-top: 51px;
+    padding-left: 198px;
+}
+
+.header__container h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.genre {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.team {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    color: #EAF1BB;
+    padding-top: 20px;
+    padding-bottom: 113px;
+}
+
+.line {
+    background: #221D1D;
+    height: 49px;
+}
+
+.main {
+    padding-left: 283px;
+    padding-right: 283px;
+    padding-top: 115px;
+    background: #3C5358;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__up {
+    width: 834px;
+}
+
+.youtube {
+    width: 834px;
+    height: 516px;
+    background: #FFFFFF;
+}
+
+.anime {
+    padding-top: 46px;
+}
+
+.anime p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    color: #C7B9B9;
+}
+
+.main__down {
+    padding-top: 180px;
+}
+
+.featured__text h2 {
+    border-left: 6px solid #E43776;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.featured__text p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-top: 11px;
+}
+
+.anime__name h3 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.likes p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.likes {
+    display: flex;
+}
+
+.likes::before {
+    content: url(../img/1487717002-heart_81641\ 1.png);
+}
+
+.featured__animes {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 95px;
+    justify-content: space-between;
+}
+
+.about {
+    padding-left: 283px;
+    padding-right: 283px;
+    padding-top: 133px;
+    background: #FFFFFF;
+    padding-bottom: 180px;
+}
+
+.about__text h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.about__text p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.about__persons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+
+.person h3 {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.footer {
+    background: #303441;
+    padding: 30px;
+    padding-left: 283px;
+    padding-right: 283px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__text {
+    color: #000;
+    font-weight: 600;
+}
+
+@media all and (max-width: 1024px) {
+    .nav__logo--aot {
+        display: none;
+    }
+
+    .featured__animes--number {
+        
+    }
+
+    .about__persons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
